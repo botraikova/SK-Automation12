@@ -27,7 +27,10 @@ public class sevenDigits {
                 break;
             case 7:
                 System.out.println("“The"+'\t' +digit + "-th day of the week is Sunday”");
+                //System.out.println("“The " + digit + "-th day of the week is Sunday”");
                 break;
+            default:
+                System.out.print("Invalid input. Please enter a number between 1 and 7.");
         }
     }
 
