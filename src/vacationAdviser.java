@@ -16,11 +16,11 @@ public class vacationAdviser {
             budgetPerDay = mScanner.nextDouble();
 
 
-            if (budgetPerDay <= 50 && budgetPerDay>=1) {
+            if (budgetPerDay <= 50 && budgetPerDay>=30) {
                 System.out.println("Consider this type of vacation somewhere in Bulgaria.");
             }
             else if (budgetPerDay > 50) {
-                System.out.println("Consider this type of vacation Outside Bulgaria.");
+                System.out.println("Consider this type of vacation outside Bulgaria.");
             }
             if (budgetPerDay == 0){
                 System.out.println("Not enough money for vacation at all.");
@@ -32,11 +32,11 @@ public class vacationAdviser {
 
             budgetPerDay = mScanner.nextDouble();
 
-            if (budgetPerDay <= 50 && budgetPerDay>=1) {
+            if (budgetPerDay <= 50 && budgetPerDay>=30) {
                 System.out.println("Consider this type of vacation somewhere in Bulgaria.");
             }
             else if (budgetPerDay > 50) {
-                System.out.println("Consider this type of vacation Outside Bulgaria.");
+                System.out.println("Consider this type of vacation outside Bulgaria.");
             }
 
             if (budgetPerDay == 0) {
