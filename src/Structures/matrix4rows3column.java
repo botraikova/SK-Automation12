@@ -1,6 +1,6 @@
 package Structures;
 
-public class Matrix4rows3column {
+public class matrix4rows3column {
     public static void main(String[] args) {
         int[][] matrix2dim = {
                 {10, 20, 30},
